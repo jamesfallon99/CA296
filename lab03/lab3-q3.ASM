@@ -1,0 +1,7 @@
+MOV CL,08;
+LOOP:
+ MOV BL,[CL]
+ ADD AL,BL;
+ DEC CL;
+ JNZ LOOP;
+ END;

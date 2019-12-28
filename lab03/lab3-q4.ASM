@@ -1,0 +1,8 @@
+MOV AL,49;
+LOOP:
+ MOV [AL],AL;
+ DEC AL;
+ CMP AL,3F;
+ JNZ LOOP;
+ END;
+ 

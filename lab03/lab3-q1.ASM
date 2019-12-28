@@ -1,0 +1,7 @@
+MOV CL, 14;
+MOV AL, 15;
+LOOP:
+ DEC CL;
+ DEC AL;
+ JNS LOOP;
+ END;
